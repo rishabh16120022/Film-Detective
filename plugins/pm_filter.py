@@ -178,13 +178,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     title = chat.title
                 except:
                     await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
-                    return await query.answer('👨‍💻𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻 𝙱𝙾𝚃𝚉👩‍💻')
+                    return await query.answer('🔮ᴛʀᴇɴᴅɪɴɢ ᴇʀᴀ ʙᴏᴛ🔮')
             else:
                 await query.message.edit_text(
                     "I'm not connected to any groups!\nCheck /connections or connect to any groups",
                     quote=True
                 )
-                return await query.answer('👨‍💻𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻 𝙱𝙾𝚃𝚉👩‍💻')
+                return await query.answer('🔮ᴛʀᴇɴᴅɪɴɢ ᴇʀᴀ ʙᴏᴛ🔮')
 
         elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             grp_id = query.message.chat.id
@@ -266,7 +266,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.edit_text('Some error occurred!!', parse_mode=enums.ParseMode.MARKDOWN)
-        return await query.answer('👨‍💻𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻 𝙱𝙾𝚃𝚉👩‍💻')
+        return await query.answer('🔮ᴛʀᴇɴᴅɪɴɢ ᴇʀᴀ ʙᴏᴛ🔮')
     elif "disconnect" in query.data:
         await query.answer()
 
@@ -289,7 +289,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('👨‍💻𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻 𝙱𝙾𝚃𝚉👩‍💻')
+        return await query.answer('🔮ᴛʀᴇɴᴅɪɴɢ ᴇʀᴀ ʙᴏᴛ🔮')
     elif "deletecb" in query.data:
         await query.answer()
 
@@ -307,7 +307,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('👨‍💻𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻 𝙱𝙾𝚃𝚉👩‍💻')
+        return await query.answer('🔮ᴛʀᴇɴᴅɪɴɢ ᴇʀᴀ ʙᴏᴛ🔮')
     elif query.data == "backcb":
         await query.answer()
 
@@ -318,7 +318,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer('👨‍💻𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻 𝙱𝙾𝚃𝚉👩‍💻')
+            return await query.answer('🔮ᴛʀᴇɴᴅɪɴɢ ᴇʀᴀ ʙᴏᴛ🔮')
         buttons = []
         for groupid in groupids:
             try:
@@ -425,19 +425,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ ADD ME TO YOUR GROUPS ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔎 SEARCH INLINE 🔍', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ɪɴʟɪɴᴇ 🔍', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🤖 ᗪᗩᖇK ᗪEᐯIᒪ ᗷOTᘔ 🤖', url='https://t.me/DarkDevilBotz')
+            InlineKeyboardButton('🥀 ᴏᴡɴᴇʀ 🥀', url='https://t.me/abhi_rss')
             ],[
-            InlineKeyboardButton('🔰 FILM GROUP 🔰', url='https://t.me/DarkNetflixGroup'),
-            InlineKeyboardButton('♨️ MOVIES ♨️', url='https://t.me/DarkNetflixPublic')
+            InlineKeyboardButton('⚡ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⚡', url='https://t.me/trending_era_discussion'),
+            InlineKeyboardButton('🔥 ᴍᴏᴠɪᴇs 🔥', url='https://t.me/Trending_Era')
             ],[
-            InlineKeyboardButton('😇 MORE 😇', callback_data='help'),
-            InlineKeyboardButton('📛 ABOUT 📛', callback_data='about')
+            InlineKeyboardButton('🔮 ᴍᴏʀᴇ ɪɴғᴏ 🔮', callback_data='help'),
+            InlineKeyboardButton('🧿 ᴀʙᴏᴜᴛ 🧿', callback_data='about')
             ],[
-            InlineKeyboardButton('🍭 TEAM DARK DEVIL 🍭', url='https://t.me/TeamDarkDevil')
+            InlineKeyboardButton('🍭 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 🍭', url='https://t.me/Trending_Era')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -445,7 +445,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer('👨‍💻𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻 𝙱𝙾𝚃𝚉👩‍💻')
+        await query.answer('🔮ᴛʀᴇɴᴅɪɴɢ ᴇʀᴀ ʙᴏᴛ🔮')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('🕹️ MANUAL FILTER 🕹️', callback_data='manuelfilter'),
