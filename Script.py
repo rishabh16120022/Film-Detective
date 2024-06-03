@@ -16,20 +16,20 @@ class script(object):
 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽 𝙸𝙽 𝚃𝙷𝙴 𝙶𝚁𝙾𝚄𝙿. 𝚃𝙷𝙴𝙽 𝚈𝙾𝚄 𝚆𝙸𝙻𝙻 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚉... 😍"""
     HELP_TXT = """𝙷𝙾𝚆 𝙰𝚁𝙴 𝚈𝙾𝚄 {} 𝙱𝚁𝙾😜
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂. 𝙱𝚄𝚃 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙽𝙾𝚃 𝚄𝚂𝙴 𝙰𝙳𝙼𝙸𝙽 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂\n\n𝙼𝚈 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𝙸𝚂 <a href=https://t.me/DARKDevilV2>𝙼𝙰𝙻𝙸𝙽𝙳𝚄 𝙽𝙸𝙼𝚂𝙰𝚁𝙰</a> """
-    ABOUT_TXT = """ 🤡 𝙸 𝚊𝚖 <a href=https://t.me/Film_Detective_Bot>𝙵𝙸𝙻𝙼 𝙳𝙴𝚃𝙴𝙲𝚃𝙸𝚅𝙴</a>
-🏅 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TeamDarkDevil>𝚃𝙴𝙰𝙼 𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻</a>
+    ABOUT_TXT = """🍃 𝙸 𝚊𝚖 <a href=http://t.me/Trending_era_moviesbot>MovieSearchBot</a>
+🏅 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/abhi_rss>ᴀʙʜɪsʜᴇᴋ</a>
 🥇 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 🥈 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 🥉 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱 𝙵𝚁𝙴𝙴 𝚃𝚁𝙸𝙰𝙻
 🎖️ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝚅𝙿𝚂
 🛠 ️𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0 [ 𝙱𝙴𝚃𝙰 ]
-👨‍💻 𝙼𝚈 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𝙸𝚂 <a href=https://t.me/DARKDevilV2>𝙼𝙰𝙻𝙸𝙽𝙳𝚄 𝙽𝙸𝙼𝚂𝙰𝚁𝙰</a>"""
+👨‍💻 𝙼𝚈 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𝙸𝚂 <a href=https://t.me/abhi_rss>BotDev</a>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - This is a privat edition. 
 - Source - locked🔐
 
-<b>👨‍💻DEVELOPERS👩‍💻:</b>
-- <a href=https://t.me/DarkDevilBotz>ᴅᴀʀᴋ ᴅᴇᴠɪʟ ʙᴏᴛᴢ</a>"""
+<b>🔮Channel🔮:</b>
+- <a href=https://t.me/trending_era>Trending Era</a>"""
     MANUELFILTER_TXT = """𝙷𝙴𝙻𝙿: <b>𝙵𝙸𝙻𝚃𝙴𝚁𝚂</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and film-detective will respond whenever a keyword is found the message
@@ -54,7 +54,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/film_detective_bot)</code>
+<code>[Button Text](buttonurl:http://t.me/Trending_era_moviesbot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
