@@ -24,11 +24,11 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 ᗪᗩᖇK ᗪEᐯIᒪ ᗷOTᘔ 🤖', url='https://t.me/DarkDevilBotz')
+                InlineKeyboardButton('🎥 ᴛʀᴇɴᴅɪɴɢ ᴍᴏᴠɪᴇs 🎥', url='https://t.me/Trending_Era')
             ],[
-                InlineKeyboardButton('🔥 TEᗩᗰ ᗪᗩᖇK ᗪEᐯIᒪ 🔥', url='https://t.me/TeamDarkDevil')
+                InlineKeyboardButton('🔥 ᴍᴏᴠɪᴇ ᴅɪsᴄᴜssɪᴏɴ  🎥', url='https://t.me/trending_era_discussion')
             ],[
-                InlineKeyboardButton('🕵 ᖴIᒪᗰ ᗪETEᑕTIᐯE ️🕵️', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🥀 ᴍᴏᴠɪᴇ ᴅᴇᴛᴇᴄᴛ ️🕵️', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -44,19 +44,19 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ ADD ME TO YOUR GROUPS ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔎 SEARCH INLINE 🔍', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ɪɴʟɪɴᴇ 🔍', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🤖 ᗪᗩᖇK ᗪEᐯIᒪ ᗷOTᘔ 🤖', url='https://t.me/DarkDevilBotz')
+            InlineKeyboardButton('🥀 ᴏᴡɴᴇʀ 🥀', url='https://t.me/abhi_rss')
             ],[
-            InlineKeyboardButton('🔰 FILM GROUP 🔰', url='https://t.me/DarkNetflixGroup'),
-            InlineKeyboardButton('♨️ MOVIES ♨️', url='https://t.me/DarkNetflixPublic')
+            InlineKeyboardButton('⚡ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⚡', url='https://t.me/trending_era_discussion'),
+            InlineKeyboardButton('🔥 ᴍᴏᴠɪᴇs 🔥', url='https://t.me/Trending_Era')
             ],[
-            InlineKeyboardButton('😇 MORE 😇', callback_data='help'),
-            InlineKeyboardButton('📛 ABOUT 📛', callback_data='about')
+            InlineKeyboardButton('🍃 ᴍᴏʀᴇ ɪɴғᴏ 🍃', callback_data='help'),
+            InlineKeyboardButton('🔮 ᴀʙᴏᴜᴛ 🔮', callback_data='about')
             ],[
-            InlineKeyboardButton('🍭 TEAM DARK DEVIL 🍭', url='https://t.me/TeamDarkDevil')
+            InlineKeyboardButton('🍭 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 🍭', url='https://t.me/Trending_Era')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -96,19 +96,19 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ ADD ME TO YOUR GROUPS ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔎 SEARCH INLINE 🔍', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ɪɴʟɪɴᴇ 🔍', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🤖 ᗪᗩᖇK ᗪEᐯIᒪ ᗷOTᘔ 🤖', url='https://t.me/DarkDevilBotz')
+            InlineKeyboardButton('🥀 ᴏᴡɴᴇʀ 🥀', url='https://t.me/abhi_rss')
             ],[
-            InlineKeyboardButton('🔰 FILM GROUP 🔰', url='https://t.me/DarkNetflixGroup'),
-            InlineKeyboardButton('♨️ MOVIES ♨️', url='https://t.me/DarkNetflixPublic')
+            InlineKeyboardButton('⚡ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ⚡', url='https://t.me/trending_era_discussion'),
+            InlineKeyboardButton('🔥 ᴍᴏᴠɪᴇs 🔥', url='https://t.me/Trending_Era')
             ],[
-            InlineKeyboardButton('😇 MORE 😇', callback_data='help'),
-            InlineKeyboardButton('📛 ABOUT 📛', callback_data='about')
+            InlineKeyboardButton('🍃 ᴍᴏʀᴇ ɪɴғᴏ 🍃', callback_data='help'),
+            InlineKeyboardButton('🥀 ᴀʙᴏᴜᴛ 🥀', callback_data='about')
             ],[
-            InlineKeyboardButton('🍭 TEAM DARK DEVIL 🍭', url='https://t.me/TeamDarkDevil')
+            InlineKeyboardButton('🍭 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 🍭', url='https://t.me/Trending_Era')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
