@@ -9,7 +9,7 @@ from utils import get_size, temp, get_settings
 from Script import script
 from pyrogram.errors import ChatAdminRequired
 
-"""-----------------------------------------DARK DEVIL--------------------------------------"""
+"""-----------------------------------------TRENDING ERA BOT--------------------------------------"""
 
 @Client.on_message(filters.new_chat_members & filters.group)
 async def save_group(bot, message):
@@ -37,11 +37,11 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('😇 HELP 😇', url=f"https://t.me/{temp.U_NAME}?start=help")
+            InlineKeyboardButton('😇 ʜᴇʟᴘ 😇', url=f"https://t.me/{temp.U_NAME}?start=help")
             ],[
-            InlineKeyboardButton('📣 UPDATES 📣', url='https://t.me/TeamDarkDevil')
+            InlineKeyboardButton('📣 ᴜᴘᴅᴀᴛᴇs 📣', url='https://t.me/Trending_era')
             ],[
-            InlineKeyboardButton('👨‍💻 DEVELOPER 👨‍💻', url='https://t.me/DARKDevilV2')
+            InlineKeyboardButton('👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻', url='https://t.me/abhi_rss')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
